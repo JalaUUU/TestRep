@@ -12,5 +12,12 @@ namespace TestApp
         internal string Name { get; set; }
         internal DateTime Birthdate { get; set; }
         internal string Address { get; set; }
+        internal User(int id, string name, DateTime birthdate, string address)
+        {
+            Id = id;
+            Name = name;
+            Birthdate = birthdate;
+            Address = address;
+        }
     }
 }
